@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.0.0)
+  - FlowingMenu (2.0.0)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - Kingfisher (3.0.1)
+  - MBProgressHUD (1.0.0)
+  - PageMenu (1.2.9)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FlowingMenu
+  - FontAwesomeKit/FontAwesome (from `https://github.com/PrideChung/FontAwesomeKit.git`)
+  - Kingfisher (~> 3.0)
+  - MBProgressHUD (~> 1.0.0)
+  - PageMenu (from `https://github.com/orazz/PageMenu.git`)
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  FontAwesomeKit:
+    :git: https://github.com/PrideChung/FontAwesomeKit.git
+  PageMenu:
+    :git: https://github.com/orazz/PageMenu.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  FontAwesomeKit:
+    :commit: ffcc61b71c5ae5196705d3486e20e5391fb9396c
+    :git: https://github.com/PrideChung/FontAwesomeKit.git
+  PageMenu:
+    :commit: 1575c91cf9276bf0d356ce97454c5899ec6fdf32
+    :git: https://github.com/orazz/PageMenu.git
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  FlowingMenu: 2c05da0d5212130818a93a6d8e894e936849b458
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  Kingfisher: d5a491b45ea453d90a31bd2c0831d5243e73a73f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 5467a8dd58b034f3840ee87ba080dbf0cacf4357
+
+COCOAPODS: 1.1.0.rc.2

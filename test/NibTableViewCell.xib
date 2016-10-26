@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NibTableViewCell" rowHeight="181" id="KGk-i7-Jjw" customClass="NibTableViewCell" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="351" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Advertise" translatesAutoresizingMaskIntoConstraints="NO" id="JfA-2k-sF2"/>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7LM-iL-Go0">
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JDK-3k-WHH">
+                            <frame key="frameInset"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4TJ-4q-pLs">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.99490840520000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="4TJ-4q-pLs" secondAttribute="trailing" constant="8" id="Tbm-Cx-SZH"/>
+                                <constraint firstItem="4TJ-4q-pLs" firstAttribute="leading" secondItem="JDK-3k-WHH" secondAttribute="leading" constant="8" id="alM-Re-a9B"/>
+                                <constraint firstAttribute="bottom" secondItem="4TJ-4q-pLs" secondAttribute="bottom" constant="12" id="hxH-aD-Yc3"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="PcT-Wr-397"/>
+                        </constraints>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7LM-iL-Go0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1ex-ay-iIC"/>
+                    <constraint firstAttribute="trailing" secondItem="7LM-iL-Go0" secondAttribute="trailing" id="KYE-f5-M4l"/>
+                    <constraint firstItem="JfA-2k-sF2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="NJ6-EL-iQj"/>
+                    <constraint firstAttribute="bottom" secondItem="7LM-iL-Go0" secondAttribute="bottom" id="Olg-Kd-lJ7"/>
+                    <constraint firstAttribute="trailing" secondItem="JfA-2k-sF2" secondAttribute="trailing" id="Yro-Gb-vH5"/>
+                    <constraint firstItem="JfA-2k-sF2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bWk-hm-SM2"/>
+                    <constraint firstAttribute="bottom" secondItem="JfA-2k-sF2" secondAttribute="bottom" id="cwJ-8M-XJe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgPhoto" destination="JfA-2k-sF2" id="bSo-aR-wNg"/>
+                <outlet property="lbInfo" destination="4TJ-4q-pLs" id="fhn-gw-acc"/>
+            </connections>
+            <point key="canvasLocation" x="-91.5" y="-120.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Advertise" width="1125" height="183"/>
+    </resources>
+</document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="NewsCollectionViewCell" id="gTV-IL-0wX" customClass="NewsCollectionViewCell" customModule="YNN" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="286"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="286"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageLoading" translatesAutoresizingMaskIntoConstraints="NO" id="iOt-12-IZn"/>
+                    <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-NQ-R4J">
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NPB-K7-fpE">
+                            <frame key="frameInset"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="លោក​លី ខឺ​ឈាង នាយករដ្ឋមន្ត្រី​ចិន​ជួបពិភាក្សា​ការងារ​ជាមួយនិង​លោក​អូ​បា​ម៉ា ប្រធានាធិបតី​អាមេរិក" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rez-zI-Z7V">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Rez-zI-Z7V" firstAttribute="leading" secondItem="NPB-K7-fpE" secondAttribute="leading" constant="9" id="bFf-h7-M7M"/>
+                                <constraint firstItem="Rez-zI-Z7V" firstAttribute="top" secondItem="NPB-K7-fpE" secondAttribute="top" constant="5" id="bnX-pb-W2g"/>
+                                <constraint firstAttribute="trailing" secondItem="Rez-zI-Z7V" secondAttribute="trailing" constant="9" id="pkT-BM-0tv"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="kGk-mX-okQ"/>
+                        </constraints>
+                        <blurEffect style="dark"/>
+                    </visualEffectView>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Play" translatesAutoresizingMaskIntoConstraints="NO" id="XQa-wt-DiY">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="8zm-HV-VKP"/>
+                            <constraint firstAttribute="height" constant="79" id="Wr4-Ei-DEp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKy-KM-9Rb">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ថ្ងៃសុក្រ ៦-កញ្ញា-២០១៦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emR-9B-z7l">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="នយោបាយ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKZ-t5-NNm">
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.9057291666666667" green="0.9057291666666667" blue="0.9057291666666667" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="XQa-wt-DiY" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1Yc-XP-CLi"/>
+                <constraint firstItem="emR-9B-z7l" firstAttribute="top" secondItem="c0g-NQ-R4J" secondAttribute="bottom" constant="2" id="BjV-jT-olI"/>
+                <constraint firstAttribute="bottom" secondItem="emR-9B-z7l" secondAttribute="bottom" constant="2" id="E3F-fl-05q"/>
+                <constraint firstItem="iOt-12-IZn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I8v-eH-YDo"/>
+                <constraint firstItem="XQa-wt-DiY" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-50" id="Icx-yb-wRX"/>
+                <constraint firstAttribute="bottom" secondItem="oKZ-t5-NNm" secondAttribute="bottom" constant="5" id="KLV-4N-gmW"/>
+                <constraint firstItem="iOt-12-IZn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Vvh-34-nR7"/>
+                <constraint firstItem="c0g-NQ-R4J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cd6-pg-TgZ"/>
+                <constraint firstAttribute="trailing" secondItem="c0g-NQ-R4J" secondAttribute="trailing" id="gHK-bW-xET"/>
+                <constraint firstAttribute="trailing" secondItem="oKZ-t5-NNm" secondAttribute="trailing" constant="8.5" id="gTe-gB-iKE"/>
+                <constraint firstAttribute="bottom" secondItem="fKy-KM-9Rb" secondAttribute="bottom" constant="5" id="gWD-KE-gb2"/>
+                <constraint firstAttribute="trailing" secondItem="iOt-12-IZn" secondAttribute="trailing" id="gte-bi-dC8"/>
+                <constraint firstAttribute="bottom" secondItem="iOt-12-IZn" secondAttribute="bottom" constant="40" id="jOj-f0-S8H"/>
+                <constraint firstItem="fKy-KM-9Rb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="nrc-TM-jiA"/>
+                <constraint firstAttribute="bottom" secondItem="c0g-NQ-R4J" secondAttribute="bottom" constant="40" id="q1x-TO-r6N"/>
+                <constraint firstItem="emR-9B-z7l" firstAttribute="leading" secondItem="fKy-KM-9Rb" secondAttribute="trailing" constant="7" id="qYM-hM-eh9"/>
+                <constraint firstItem="fKy-KM-9Rb" firstAttribute="top" secondItem="c0g-NQ-R4J" secondAttribute="bottom" constant="5" id="sJ3-P8-3Tj"/>
+            </constraints>
+            <size key="customSize" width="246" height="213"/>
+            <connections>
+                <outlet property="imgMain" destination="iOt-12-IZn" id="xAr-Cb-4p2"/>
+                <outlet property="imgPlay" destination="XQa-wt-DiY" id="rLm-Yx-1rx"/>
+                <outlet property="lbCat" destination="oKZ-t5-NNm" id="egl-8b-qoO"/>
+                <outlet property="lbClock" destination="fKy-KM-9Rb" id="6sa-KL-Bfc"/>
+                <outlet property="lbDate" destination="emR-9B-z7l" id="dgu-3N-xrL"/>
+                <outlet property="lbTitle" destination="Rez-zI-Z7V" id="SaY-hs-zfI"/>
+            </connections>
+            <point key="canvasLocation" x="-129.5" y="86"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Play" width="237" height="237"/>
+        <image name="imageLoading" width="400" height="298"/>
+    </resources>
+</document>

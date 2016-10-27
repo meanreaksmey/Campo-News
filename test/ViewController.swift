@@ -47,7 +47,7 @@ class ViewController: UIViewController, FlowingMenuDelegate, UITableViewDelegate
         
     }
     let freshNews = TableViewController(nibName: "CommonTableViewController", bundle: nil)
-    let freshNews1 = TableViewController(nibName: "CommonTableViewController", bundle: nil)
+    let freshNews1 = CollectionViewController(nibName: "CommonCollectionViewController", bundle: nil)
     
     var pageMenu : CAPSPageMenu?
     
@@ -58,10 +58,10 @@ class ViewController: UIViewController, FlowingMenuDelegate, UITableViewDelegate
         
         //        popNew.title = "popular"
         
-        freshNews.title = "fresh news"
+        freshNews.title = "news"
         controllerArray.append(freshNews)
         
-        freshNews1.title = "new news"
+        freshNews1.title = "Video"
         controllerArray.append(freshNews1)
         
 //        let new = storyboard?.instantiateViewController(withIdentifier: "TableViewController") as! TableViewController

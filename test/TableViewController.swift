@@ -82,7 +82,7 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 180
+        return 250
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -139,21 +139,5 @@ class TableViewController: UITableViewController {
 }
 
 
-class TableViewCell: UITableViewCell {
-    
-    
-    @IBOutlet weak var imgPhoto: UIImageView!
-    @IBOutlet weak var lbInfo: UILabel!
-    @IBOutlet weak var imgNews: UIImageView!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-    }
-    
-}
+
 

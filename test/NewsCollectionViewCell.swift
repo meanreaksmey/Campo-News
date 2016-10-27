@@ -29,6 +29,6 @@ class NewsCollectionViewCell: UICollectionViewCell {
         lbCat.font = setFontWithNida(14)
         lbTitle.font = setFontWithNida(15)
         lbDate.font = setFontWithNida(12)
-        imgPlay.isHidden = true
+        imgPlay.isHidden = false
     }
 }

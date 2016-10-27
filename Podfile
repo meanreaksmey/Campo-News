@@ -10,7 +10,9 @@ target “test” do
     pod 'Kingfisher', '~> 3.0'
     pod 'PageMenu', :git => 'https://github.com/orazz/PageMenu.git'
     pod 'MBProgressHUD', '~> 1.0.0'
-
+    pod 'Cosmos'
+    pod 'youtube-ios-player-helper'
+    
 end
 post_install do |installer|
     installer.pods_project.targets.each do |target|

@@ -26,30 +26,48 @@
                                     <color key="textColor" white="0.99490840520000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPq-7Z-69I"/>
+                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7mM-02-Lve" customClass="CosmosView" customModule="Cosmos">
+                                    <frame key="frameInset" minX="185" minY="18" width="120" height="20"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="4TJ-4q-pLs" secondAttribute="trailing" constant="8" id="Tbm-Cx-SZH"/>
-                                <constraint firstItem="4TJ-4q-pLs" firstAttribute="leading" secondItem="JDK-3k-WHH" secondAttribute="leading" constant="8" id="alM-Re-a9B"/>
-                                <constraint firstAttribute="bottom" secondItem="4TJ-4q-pLs" secondAttribute="bottom" constant="12" id="hxH-aD-Yc3"/>
+                                <constraint firstAttribute="trailing" secondItem="4TJ-4q-pLs" secondAttribute="trailing" constant="8" id="0lu-c1-g70"/>
+                                <constraint firstItem="4TJ-4q-pLs" firstAttribute="top" secondItem="7mM-02-Lve" secondAttribute="bottom" constant="8" id="2qX-RG-Tqm"/>
+                                <constraint firstItem="WPq-7Z-69I" firstAttribute="leading" secondItem="7mM-02-Lve" secondAttribute="trailing" constant="8" id="HcE-Fv-RjJ"/>
+                                <constraint firstItem="4TJ-4q-pLs" firstAttribute="top" secondItem="WPq-7Z-69I" secondAttribute="bottom" constant="3" id="JxB-ul-DkN"/>
+                                <constraint firstAttribute="bottom" secondItem="4TJ-4q-pLs" secondAttribute="bottom" constant="8.5" id="LzG-s5-685"/>
+                                <constraint firstItem="4TJ-4q-pLs" firstAttribute="leading" secondItem="JDK-3k-WHH" secondAttribute="leading" constant="8" id="mKX-i6-scJ"/>
+                                <constraint firstAttribute="trailing" secondItem="WPq-7Z-69I" secondAttribute="trailing" constant="8" id="vFe-5A-OOx"/>
                             </constraints>
                         </view>
                         <constraints>
-                            <constraint firstAttribute="height" constant="46" id="PcT-Wr-397"/>
+                            <constraint firstAttribute="height" constant="75" id="PcT-Wr-397"/>
                         </constraints>
                         <blurEffect style="light"/>
                     </visualEffectView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqP-aV-lmS">
+                        <frame key="frameInset" minX="325" minY="54" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="7LM-iL-Go0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1ex-ay-iIC"/>
                     <constraint firstAttribute="trailing" secondItem="7LM-iL-Go0" secondAttribute="trailing" id="KYE-f5-M4l"/>
                     <constraint firstItem="JfA-2k-sF2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="NJ6-EL-iQj"/>
-                    <constraint firstAttribute="bottom" secondItem="7LM-iL-Go0" secondAttribute="bottom" id="Olg-Kd-lJ7"/>
+                    <constraint firstAttribute="bottom" secondItem="7LM-iL-Go0" secondAttribute="bottom" constant="-1" id="Olg-Kd-lJ7"/>
                     <constraint firstAttribute="trailing" secondItem="JfA-2k-sF2" secondAttribute="trailing" id="Yro-Gb-vH5"/>
                     <constraint firstItem="JfA-2k-sF2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bWk-hm-SM2"/>
                     <constraint firstAttribute="bottom" secondItem="JfA-2k-sF2" secondAttribute="bottom" id="cwJ-8M-XJe"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="btnShare" destination="WPq-7Z-69I" id="zQA-9d-y2d"/>
                 <outlet property="imgPhoto" destination="JfA-2k-sF2" id="bSo-aR-wNg"/>
                 <outlet property="lbInfo" destination="4TJ-4q-pLs" id="fhn-gw-acc"/>
             </connections>

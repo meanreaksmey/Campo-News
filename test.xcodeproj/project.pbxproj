@@ -28,6 +28,11 @@
 		B27F76431DC0428D00C40489 /* CommonCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27F76411DC0428D00C40489 /* CommonCollectionViewController.xib */; };
 		B27F76441DC0428D00C40489 /* CommonTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27F76421DC0428D00C40489 /* CommonTableViewController.xib */; };
 		B2B494F21DBF013D006E0C3E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B494F11DBF013D006E0C3E /* TableViewController.swift */; };
+		B2CD04301DC1CEA90066FFC4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD042F1DC1CEA90066FFC4 /* CollectionViewCell.swift */; };
+		B2CD04321DC1D6C60066FFC4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD04311DC1D6C60066FFC4 /* CollectionViewController.swift */; };
+		B2CD04381DC1E1690066FFC4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CD04361DC1E1690066FFC4 /* CollectionViewCell.xib */; };
+		B2CD043C1DC1EDFF0066FFC4 /* NiDASowannaphum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2CD04391DC1E7FE0066FFC4 /* NiDASowannaphum.ttf */; };
+		B2CD04401DC1F4D70066FFC4 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD043F1DC1F4D70066FFC4 /* VideoDetailViewController.swift */; };
 		B2F280B81DBF08060023DFEC /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F280B71DBF08060023DFEC /* HTTP.swift */; };
 		B2F280BA1DBF11750023DFEC /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F280B91DBF11750023DFEC /* News.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +83,11 @@
 		B27F76411DC0428D00C40489 /* CommonCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonCollectionViewController.xib; sourceTree = "<group>"; };
 		B27F76421DC0428D00C40489 /* CommonTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTableViewController.xib; sourceTree = "<group>"; };
 		B2B494F11DBF013D006E0C3E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B2CD042F1DC1CEA90066FFC4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B2CD04311DC1D6C60066FFC4 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B2CD04361DC1E1690066FFC4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B2CD04391DC1E7FE0066FFC4 /* NiDASowannaphum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiDASowannaphum.ttf; sourceTree = "<group>"; };
+		B2CD043F1DC1F4D70066FFC4 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 		B2F280B71DBF08060023DFEC /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		B2F280B91DBF11750023DFEC /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		BF7BAF05F62A2B0A45A5D1B8 /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +152,7 @@
 		6C2AC3E01DBCED8F00D194BB /* test */ = {
 			isa = PBXGroup;
 			children = (
+				B2CD04391DC1E7FE0066FFC4 /* NiDASowannaphum.ttf */,
 				B201DB501DBEFDED002A2156 /* model */,
 				B201DB4F1DBEFDE3002A2156 /* controller */,
 				B201DB4E1DBEFDDA002A2156 /* view */,
@@ -181,10 +192,12 @@
 			children = (
 				B2755BE71DC0572100BE146C /* NewsCollectionViewCell.swift */,
 				B2755BE51DC0571200BE146C /* NewsCollectionViewCell.xib */,
+				B2CD04361DC1E1690066FFC4 /* CollectionViewCell.xib */,
 				B27F76411DC0428D00C40489 /* CommonCollectionViewController.xib */,
 				B27F76421DC0428D00C40489 /* CommonTableViewController.xib */,
 				B2755BF41DC05D9800BE146C /* NibTableViewCell.swift */,
 				B2755BF51DC05D9800BE146C /* NibTableViewCell.xib */,
+				B2CD042F1DC1CEA90066FFC4 /* CollectionViewCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -196,6 +209,8 @@
 				B201DB4A1DBEF7C7002A2156 /* UserChatCellView.swift */,
 				B2B494F11DBF013D006E0C3E /* TableViewController.swift */,
 				B27F763B1DC0302F00C40489 /* DetailViewController.swift */,
+				B2CD04311DC1D6C60066FFC4 /* CollectionViewController.swift */,
+				B2CD043F1DC1F4D70066FFC4 /* VideoDetailViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -328,8 +343,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CD043C1DC1EDFF0066FFC4 /* NiDASowannaphum.ttf in Resources */,
 				6C2AC3EC1DBCED8F00D194BB /* LaunchScreen.storyboard in Resources */,
 				6C2AC3E91DBCED8F00D194BB /* Assets.xcassets in Resources */,
+				B2CD04381DC1E1690066FFC4 /* CollectionViewCell.xib in Resources */,
 				B27F76441DC0428D00C40489 /* CommonTableViewController.xib in Resources */,
 				B2755BF71DC05D9800BE146C /* NibTableViewCell.xib in Resources */,
 				6C2AC3E71DBCED8F00D194BB /* Main.storyboard in Resources */,
@@ -414,9 +431,12 @@
 				B2755BEA1DC0578900BE146C /* Function.swift in Sources */,
 				B2755BE81DC0572100BE146C /* NewsCollectionViewCell.swift in Sources */,
 				B201DB4B1DBEF7C7002A2156 /* UserChatCellView.swift in Sources */,
+				B2CD04401DC1F4D70066FFC4 /* VideoDetailViewController.swift in Sources */,
 				B25ED2A11DBEE5F00004C13D /* ViewController.swift in Sources */,
 				B2F280B81DBF08060023DFEC /* HTTP.swift in Sources */,
+				B2CD04321DC1D6C60066FFC4 /* CollectionViewController.swift in Sources */,
 				B27F763C1DC0302F00C40489 /* DetailViewController.swift in Sources */,
+				B2CD04301DC1CEA90066FFC4 /* CollectionViewCell.swift in Sources */,
 				6C2AC3E21DBCED8F00D194BB /* AppDelegate.swift in Sources */,
 				B25ED29F1DBEE54F0004C13D /* MenuViewController.swift in Sources */,
 				B27F76401DC03E5800C40489 /* UIColor.swift in Sources */,

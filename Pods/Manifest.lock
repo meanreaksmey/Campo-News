@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.0.0)
+  - Cosmos (6.0.1)
   - FlowingMenu (2.0.0)
   - FontAwesomeKit/Core (2.2.1)
   - FontAwesomeKit/FontAwesome (2.2.1):
@@ -8,15 +9,18 @@ PODS:
   - MBProgressHUD (1.0.0)
   - PageMenu (1.2.9)
   - SwiftyJSON (2.3.2)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
+  - Cosmos
   - FlowingMenu
   - FontAwesomeKit/FontAwesome (from `https://github.com/PrideChung/FontAwesomeKit.git`)
   - Kingfisher (~> 3.0)
   - MBProgressHUD (~> 1.0.0)
   - PageMenu (from `https://github.com/orazz/PageMenu.git`)
   - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+  - youtube-ios-player-helper
 
 EXTERNAL SOURCES:
   FontAwesomeKit:
@@ -40,13 +44,15 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  Cosmos: 374de9804e382a23662908688ab15c8f473977fe
   FlowingMenu: 2c05da0d5212130818a93a6d8e894e936849b458
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   Kingfisher: d5a491b45ea453d90a31bd2c0831d5243e73a73f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: 5467a8dd58b034f3840ee87ba080dbf0cacf4357
+PODFILE CHECKSUM: 810a5cc0e9f42464e427f2f23f5773696389f234
 
 COCOAPODS: 1.1.0.rc.2
